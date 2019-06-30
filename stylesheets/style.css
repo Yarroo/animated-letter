@@ -1,0 +1,21 @@
+body {
+  font-family: "Pacifico", cursive;
+  max-width: 1240px;
+  margin: 0 auto;
+  background: #fff url(../images/paper_texture300.jpg) center center no-repeat;
+  background-size: 1240px; }
+  body .letter-title {
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+    margin-right: 20px; }
+  body .letter-body {
+    float: left;
+    margin: 20px 20px 0 20px; }
+    body .letter-body p {
+      margin: 0 0 0 0;
+      font-size: 1.5rem; }
+  body .letter-footer {
+    float: left; }
+
+/*# sourceMappingURL=style.css.map */
