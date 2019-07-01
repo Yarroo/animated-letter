@@ -3,20 +3,22 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   background: #fff url(../images/paper_texture300.jpg) center center no-repeat;
-  background-size: 1240px; }
+  background-size: 1240px;
+  font-size: 1.5rem; }
   body .letter-title {
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 3rem; }
+  body .letter-body {
+    clear: both;
+    margin: 20px 30px 0 30px;
+    font-weight: bold; }
+  body .letter-footer {
     float: right;
     width: 40%;
     margin-top: 50px;
-    margin-right: 20px; }
-  body .letter-body {
-    float: left;
-    margin: 20px 20px 0 20px;
-    font-weight: bold; }
-    body .letter-body p {
-      margin: 0 0 0 0;
-      font-size: 1.5rem; }
-  body .letter-footer {
-    float: left; }
+    margin-right: 20px;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
