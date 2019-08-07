@@ -1,24 +1,31 @@
-body {
-  font-family: "Caveat", cursive;
-  max-width: 1240px;
-  margin: 0 auto;
-  background: #fff url(../images/paper_texture300.jpg) center center no-repeat;
-  background-size: 1240px;
-  font-size: 1.5rem; }
-  body .letter-title {
-    max-width: 40%;
-    margin: 0 auto;
-    margin-top: 50px;
-    font-size: 3rem; }
-  body .letter-body {
-    clear: both;
-    margin: 20px 30px 0 30px;
-    font-weight: bold; }
-  body .letter-footer {
-    float: right;
-    width: 40%;
-    margin-top: 50px;
-    margin-right: 20px;
-    font-size: 2rem; }
+html, body {
+  min-height: 100vh;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
+  html body, body body {
+    font-family: "Caveat", cursive;
+    background: #fff url(../images/paper_texture300.jpg) center bottom no-repeat;
+    background-size: 1300px;
+    width: 1300px;
+    margin: 0 auto; }
+    html body .content, body body .content {
+      font-size: 2.2rem;
+      line-height: 2.2rem; }
+      html body .content .letter-title, body body .content .letter-title {
+        max-width: 40%;
+        margin: 0 auto;
+        padding-top: 10px;
+        font-size: 3rem; }
+      html body .content .letter-body, body body .content .letter-body {
+        clear: both;
+        padding-top: 20px;
+        margin: 0 30px 0 30px;
+        font-weight: bold; }
+      html body .content .letter-footer, body body .content .letter-footer {
+        float: right;
+        width: 50%;
+        padding-top: 10px;
+        margin-right: 20px;
+        font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
