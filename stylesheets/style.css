@@ -9,7 +9,7 @@ html, body {
     width: 1300px;
     margin: 0 auto; }
     html body .content, body body .content {
-      font-size: 2.2rem; }
+      font-size: 2.1rem; }
       html body .content .letter-title, body body .content .letter-title {
         max-width: 40%;
         margin: 0 auto;
@@ -17,10 +17,10 @@ html, body {
         font-size: 3rem; }
       html body .content .letter-body, body body .content .letter-body {
         clear: both;
-        margin: 0 30px 0 30px;
+        margin: 60px 30px 0 30px;
         font-weight: bold; }
       html body .content .letter-footer, body body .content .letter-footer {
-        max-width: 50%;
+        max-width: 80%;
         margin: 20px auto 0 auto;
         font-weight: bold; }
 
